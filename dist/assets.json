@@ -1,0 +1,76 @@
+{
+  "_chunk-!~{007}~.js": {
+    "file": "assets/static/onRenderClient.Dc--uV0n.css",
+    "src": "_chunk-!~{007}~.js"
+  },
+  "_chunk-CCrpTgQx.js": {
+    "file": "assets/chunks/chunk-CCrpTgQx.js",
+    "name": "_onRenderClient",
+    "css": [
+      "assets/static/onRenderClient.Dc--uV0n.css"
+    ]
+  },
+  "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js": {
+    "file": "assets/entries/entry-server-routing.yb-CjCgD.js",
+    "name": "entries/entry-server-routing",
+    "src": "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/about",
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/blog",
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/index",
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal",
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/src/pages/about": {
+    "file": "assets/entries/src_pages_about.CpONl_4V.js",
+    "name": "entries/src/pages/about",
+    "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/about",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CCrpTgQx.js"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/src/pages/blog": {
+    "file": "assets/entries/src_pages_blog.BiqPJbXa.js",
+    "name": "entries/src/pages/blog",
+    "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/blog",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CCrpTgQx.js"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id": {
+    "file": "assets/entries/src_pages_blog_-id.BwO0We0M.js",
+    "name": "entries/src/pages/blog/@id",
+    "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CCrpTgQx.js"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/src/pages/index": {
+    "file": "assets/entries/src_pages_index.C-M8d-zh.js",
+    "name": "entries/src/pages/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CCrpTgQx.js"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal": {
+    "file": "assets/entries/src_pages_layoutPrincipal.C8KC-zBu.js",
+    "name": "entries/src/pages/layoutPrincipal",
+    "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-CCrpTgQx.js"
+    ]
+  }
+}
