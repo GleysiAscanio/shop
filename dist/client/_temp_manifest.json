@@ -1,76 +1,91 @@
 {
   "_chunk-!~{007}~.js": {
-    "file": "assets/static/onRenderClient.Dc--uV0n.css",
+    "file": "assets/static/onRenderClient.BZVYggVz.css",
     "src": "_chunk-!~{007}~.js"
   },
-  "_chunk-CCrpTgQx.js": {
-    "file": "assets/chunks/chunk-CCrpTgQx.js",
+  "_chunk-BhmYECK8.js": {
+    "file": "assets/chunks/chunk-BhmYECK8.js",
     "name": "_onRenderClient",
     "css": [
-      "assets/static/onRenderClient.Dc--uV0n.css"
+      "assets/static/onRenderClient.BZVYggVz.css"
     ]
   },
-  "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js": {
-    "file": "assets/entries/entry-server-routing.yb-CjCgD.js",
-    "name": "entries/entry-server-routing",
-    "src": "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js",
+  "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js": {
+    "file": "assets/entries/entry-client-routing.24txUkYi.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js",
     "isEntry": true,
     "dynamicImports": [
       "virtual:vike:pageConfigValuesAll:client:/src/pages/about",
       "virtual:vike:pageConfigValuesAll:client:/src/pages/blog",
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id",
       "virtual:vike:pageConfigValuesAll:client:/src/pages/index",
-      "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal",
-      "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id"
+      "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal"
     ]
   },
+  "src/assets/hero-1.png": {
+    "file": "assets/static/hero-1.DmP3_LQ0.png",
+    "src": "src/assets/hero-1.png"
+  },
+  "src/assets/logo.png": {
+    "file": "assets/static/logo.BBxxmbh4.png",
+    "src": "src/assets/logo.png"
+  },
   "virtual:vike:pageConfigValuesAll:client:/src/pages/about": {
-    "file": "assets/entries/src_pages_about.CpONl_4V.js",
+    "file": "assets/entries/src_pages_about.CsxOr0vG.js",
     "name": "entries/src/pages/about",
     "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/about",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-CCrpTgQx.js"
+      "_chunk-BhmYECK8.js"
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/src/pages/blog": {
-    "file": "assets/entries/src_pages_blog.BiqPJbXa.js",
+    "file": "assets/entries/src_pages_blog.j0yuCLoP.js",
     "name": "entries/src/pages/blog",
     "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/blog",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-CCrpTgQx.js"
+      "_chunk-BhmYECK8.js"
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id": {
-    "file": "assets/entries/src_pages_blog_-id.BwO0We0M.js",
+    "file": "assets/entries/src_pages_blog_-id.B-pRgUPq.js",
     "name": "entries/src/pages/blog/@id",
     "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/blog/@id",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-CCrpTgQx.js"
+      "_chunk-BhmYECK8.js"
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/src/pages/index": {
-    "file": "assets/entries/src_pages_index.C-M8d-zh.js",
+    "file": "assets/entries/src_pages_index.DqgG_RTM.js",
     "name": "entries/src/pages/index",
     "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/index",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-CCrpTgQx.js"
+      "_chunk-BhmYECK8.js"
+    ],
+    "css": [
+      "assets/static/index.F8kXEyR8.css"
+    ],
+    "assets": [
+      "assets/static/logo.BBxxmbh4.png",
+      "assets/static/hero-1.DmP3_LQ0.png"
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal": {
-    "file": "assets/entries/src_pages_layoutPrincipal.C8KC-zBu.js",
+    "file": "assets/entries/src_pages_layoutPrincipal.CLzBI4vB.js",
     "name": "entries/src/pages/layoutPrincipal",
     "src": "virtual:vike:pageConfigValuesAll:client:/src/pages/layoutPrincipal",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-CCrpTgQx.js"
+      "_chunk-BhmYECK8.js"
     ]
   }
 }
