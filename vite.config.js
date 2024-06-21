@@ -5,10 +5,11 @@ import vike from 'vike/plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base : "/shop/",
   plugins: [react(), vike({ prerender: true })
     // vikePlugin({ prerender: true })
   ],
   build: {
-    outDir: 'dist'
+    outDir: 'dist/client/',
   }
 })

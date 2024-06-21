@@ -1,14 +1,25 @@
 // https://vike.dev/onRenderClient
 export { onRenderClient }
 
-import { createRoot } from 'react-dom/client'
+import { hydrateRoot, createRoot } from 'react-dom/client'
 import { PageLayout } from './PageLayout'
 
+let root
 async function onRenderClient(pageContext) {
   const { Page } = pageContext
-  createRoot(document.getElementById('root')).render(
+  const container = document.getElementById('root')
+  const page = (
     <PageLayout>
       <Page />
-    </PageLayout>,
+    </PageLayout>
   )
+  
+  if (pageContext.isHydration) {
+    root = hydrateRoot(container, page)
+  } else {
+    if (!root) {
+      root = createRoot(container)
+    }
+    root.render(page)
+  }
 }

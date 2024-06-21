@@ -13,31 +13,31 @@ PageLayout.propTypes = {
 function PageLayout({ pageContext, children }) {
   return (
     <PageContextProvider pageContext={pageContext}>
-        <Navigation>
+        {/* <Navigation>
         <a href="/">Home</a>
         <a href="/about">About</a>
-      </Navigation>
+      </Navigation> */}
       <Content>{children}</Content>
     </PageContextProvider>
   )
 }
 
-function Navigation({ children }) {
-  return (
-    <div
-      style={{
-        paddingBottom: 25,
-        paddingTop: 5,
-        fontSize: '1.2em',
-        display: 'flex',
-        justifyContent: 'center',
-        gap: 25,
-      }}
-    >
-      {children}
-    </div>
-  )
-}
+// function Navigation({ children }) {
+//   return (
+//     <div
+//       style={{
+//         paddingBottom: 25,
+//         paddingTop: 5,
+//         fontSize: '1.2em',
+//         display: 'flex',
+//         justifyContent: 'center',
+//         gap: 25,
+//       }}
+//     >
+//       {children}
+//     </div>
+//   )
+// }
 
 function Content({ children }) {
   return <div>{children}</div>
