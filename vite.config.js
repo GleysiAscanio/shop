@@ -8,4 +8,8 @@ export default defineConfig({
   plugins: [react(), vike({ prerender: true })
     // vikePlugin({ prerender: true })
   ],
+  base: '/',
+  build: {
+    outDir: 'dist'
+  }
 })
