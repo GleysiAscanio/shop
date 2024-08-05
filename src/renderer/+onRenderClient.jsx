@@ -3,6 +3,7 @@ export { onRenderClient }
 
 import { hydrateRoot, createRoot } from 'react-dom/client'
 import { PageLayout } from './PageLayout'
+import "./index.css"
 
 let root
 async function onRenderClient(pageContext) {
